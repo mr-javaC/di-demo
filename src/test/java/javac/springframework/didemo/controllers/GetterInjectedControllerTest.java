@@ -6,13 +6,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class GretterInjectedControllerTest {
+public class GetterInjectedControllerTest {
 
-    private GretterInjectedController getterInjectedController;
+    private GetterInjectedController getterInjectedController;
 
     @Before
     public void setUp() throws Exception {
-        this.getterInjectedController = new GretterInjectedController();
+        this.getterInjectedController = new GetterInjectedController();
         this.getterInjectedController.setGreetingService(new GreetingServiceImpl());
     }
 
